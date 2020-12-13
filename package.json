@@ -1,0 +1,32 @@
+{
+  "name": "personal-portofolio",
+  "version": "1.0.0",
+  "description": "The folder contains source code to display my personal website",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smutharasan/personal-portofolio.git"
+  },
+  "author": "Supriya Mutharasan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/smutharasan/personal-portofolio/issues"
+  },
+  "homepage": "https://github.com/smutharasan/personal-portofolio#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "client-sessions": "^0.8.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^5.2.0",
+    "fs": "0.0.1-security",
+    "moment": "^2.29.1",
+    "mongoose": "^5.11.7",
+    "multer": "^1.4.2",
+    "path": "^0.12.7",
+    "underscore": "^1.12.0"
+  }
+}
