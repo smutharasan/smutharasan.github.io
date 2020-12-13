@@ -1,0 +1,69 @@
+/*Start global*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 10px;
+    font-size: 'Roboto', san-serif;
+    color: #eee
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    background: url('images/bsite.png') no-repeat center fixed;
+    background-size: cover;
+}
+
+@font-face {
+    font-family: 'The Historia Demo';
+    src: url('fonts/thehistoriademo-webfont.woff2') format('woff2'),
+         url('fonts/thehistoriademo-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+a{
+    text-decoration: none;
+    color: #eee;
+}
+p{
+    font-size: 1.8rem;
+    font-weight: 300;
+}
+
+img{
+    width: 100%;
+}
+header{
+    width: 100%;
+    height: 100vh;
+}
+/*End global*/
+.top-nav{
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    background-color: #16162d;
+    border-bottom-right-radius: 100%;
+    transition: all 650ms cubic-bezier(1,0,0,1);
+}
+.nav-list{
+    width: 100%;
+    list-style: none;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+li{
+    margin: 0 2rem;
+}
+.nav-link{
+    font-family:"The Historia Demo", sans-serif;
+    font-size: 5rem;
+    padding: 1rem;
+}
