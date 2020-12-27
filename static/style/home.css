@@ -7,7 +7,7 @@
 
 html {
     font-size: 10px;
-    font-size: 'Roboto', san-serif;
+    font-family: 'Roboto', san-serif;
     color: #eee;
 }
 
@@ -17,7 +17,9 @@ body {
     background: url('/images/sitebg.jpg') no-repeat center fixed;
     background-size: cover;
 }
-
+section{
+    padding:6rem;
+}
 @font-face {
     font-family: 'The Historia Demo';
     src: url('fonts/thehistoriademo-webfont.woff2') format('woff2'),
@@ -165,3 +167,101 @@ li {
     font-size: 3.2rem;
     font-weight: 400;
 }
+
+.container{
+    width:90%;
+    position: relative;
+    max-width: 120rem;
+    height: 100%;
+    margin:0 auto;
+
+}
+
+.section-header{
+    text-align: center;
+    margin-bottom:10rem;
+}
+
+.section-header h1{
+    font-size: 3.5rem;
+    color: rgba(255,255,255,.3);
+    text-transform: uppercase;
+    font-weight: 300;
+    position: relative;
+    margin-bottom: 1rem;
+}
+.section-header h1::before,
+.section-header h1::after{
+    content:'';
+    position: absolute;
+    bottom:-.5rem;
+    left:50%;
+    transform: translateX(-50%);
+    background-color: rgba(255,255,255,0.75);
+}
+
+.section-header h1::before{
+    width:10rem;
+    height:3px;
+    border-radius: .8rem;
+}
+.section-header h1::after{
+    width:1.5rem;
+    height:1.5rem;
+    border-radius: 100%;
+    bottom:-1rem;
+}
+.section-header h6{
+    font-size: 1.6rem;
+    font-weight: 300;
+}
+
+.has-margin-right{
+    margin-right:5rem;
+}
+
+.copyright {
+    widows: 100%;
+    text-align: center;
+    background-color: #16162d;
+    padding: 2rem 0;
+    position: relative;
+
+}
+
+.up {
+    position: absolute;
+    width: 5rem;
+    height: 5rem;
+    right: 5rem;
+    top: -2.5rem;
+    background-color: #eee;
+    border-radius: 100%;
+    display: flex;
+    animation: pulse 2s infinite;
+}
+
+.up i {
+    color: #16162d;
+    font-size: 2rem;
+    margin: auto;
+}
+
+.copyright p {
+    font-size: 1.5rem;
+}
+
+@keyframes pulse{
+    0%{
+        box-shadow: 0 0 0 0 rgba(253,87,191,0.99);
+    }
+    70%{
+        box-shadow: 0 0 0 2rem rgba(253, 87, 191, 0);
+    }
+    100%{
+        box-shadow: 0 0 0 0 rgba(253, 87, 191, 0);
+    }
+}
+
+
+
