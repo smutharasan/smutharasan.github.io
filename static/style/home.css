@@ -18,7 +18,7 @@ body {
     background-size: cover;
 }
 section{
-    padding:6rem;
+    padding:6rem 0;
 }
 @font-face {
     font-family: 'The Historia Demo';
@@ -239,6 +239,7 @@ li {
     border-radius: 100%;
     display: flex;
     animation: pulse 2s infinite;
+    cursor: pointer;
 }
 
 .up i {

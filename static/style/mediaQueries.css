@@ -1,4 +1,4 @@
-@media screen and (max-width:760px) {
+@media screen and (max-width:768px) {
     body {
 
         background: url('/images/sitebg2.jpg') no-repeat center fixed;
@@ -36,7 +36,7 @@
     }
 
     .about-details .nav-list {
-        flex-direction: initial;
+        flex-direction: row;
     }
 
     .about-details li {
@@ -57,13 +57,11 @@
     }
 
     .timeline .date::before {
-
-        left: -20rem;
-
+        left: -21.5rem;
     }
 
     .timeline .date::after {
-        left: -5.9rem;
+        left: -7.9rem;
     }
 }
 
@@ -83,7 +81,6 @@
     }
     .nav-link{
         font-size:3.5rem;
-        
     }
     
     .about .container{
@@ -107,11 +104,10 @@
     }
 
     .timeline p{
-        font-size:1.8rem
+        font-size:1.6rem
     }
     
     .timeline .date::before {
-        
         font-size:1.4rem
     }
     
@@ -122,4 +118,10 @@
         right:2rem;
     }
 
+}
+
+@media screen and (max-width:1130px) {
+    #menu-nav-list{
+        flex-direction: column;
+    }
 }
