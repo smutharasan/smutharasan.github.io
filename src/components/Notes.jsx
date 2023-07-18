@@ -31,7 +31,7 @@ const Notes = () => {
       </motion.div>
       <div className='mt-10 flex flex-col'>
         <h3 className={styles.sectionSubText}>Certified Cloud Practioner</h3>
-        <div className='Example__container__document'>
+        <iframe src={"https://drive.google.com/file/d/1-mEX1a0HTSMHIgqJiPVKmIQF8GUIk_GO/preview"} width={640} height={480} allow="autoplay"></iframe>        <div className='Example__container__document'>
           <Document
             file='./src/assets/notes/ccp.pdf'
             onLoadSuccess={onDocumentLoadSuccess}
@@ -45,6 +45,7 @@ const Notes = () => {
         <h3 className={styles.sectionSubText}>
           Solutions Architect Associate,
         </h3>
+        <iframe src={"https://drive.google.com/file/d/119pzYf_2cPDhEoSiToj39_sKWRzA_Vht/preview"} width={640} height={480} allow="autoplay"></iframe>
         <div className='Example__container__document'>
           <Document
             file='./src/assets/notes/saa.pdf'
