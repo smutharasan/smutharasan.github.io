@@ -24,6 +24,8 @@ import threejs from './tech/threejs.svg'
 import ssc from './company/ssc.png'
 import tdsb from './company/tdsb.jpeg'
 import starbucks from './company/starbucks.png'
+import aws from './company/aws.png'
+
 
 import carrent from './carrent.png'
 import jobit from './jobit.png'
