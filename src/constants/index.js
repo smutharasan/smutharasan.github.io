@@ -15,7 +15,7 @@ import {
   git,
   figma,
   docker,
-  starbucks,
+  starbucks, aws,
   ssc,
   tdsb,
   carrent,
@@ -121,7 +121,7 @@ const experiences = [
   {
     title: 'Solutions Architect Intern',
     company_name: 'AWS',
-    icon: starbucks,
+    icon: aws,
     iconBg: '#383E56',
     date: 'April 2025 - PRESENT',
     points: [
