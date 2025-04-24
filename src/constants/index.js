@@ -119,11 +119,27 @@ const technologies = [
 
 const experiences = [
   {
+    title: 'Solutions Architect Intern',
+    company_name: 'AWS',
+    icon: starbucks,
+    iconBg: '#383E56',
+    date: 'April 2025 - PRESENT',
+    points: [
+      'Designing and supporting scalable, secure, and cost-optimized AWS architectures that align with customer technical and business objectives.',
+      'Building interactive dashboards with Amazon QuickSight, integrating datasets from Amazon S3 and AWS Athena to provide near real-time analytics.',
+      'Participating in technical deep dives and architecture reviews to identify performance and reliability improvements using services like EC2, RDS, Lambda, and CloudFront.',
+      'Translating stakeholder feedback into clear technical requirements for product teams, contributing to customer-centric service enhancements.',
+      'Conducting hands-on walkthroughs and labs to upskill customer engineering teams on IAM, serverless architecture, VPC networking, and analytics services.',
+      'Producing reusable reference architectures, knowledge articles, and automation scripts to accelerate cloud adoption and onboarding processes.',
+      'Shadowing customer discovery sessions and contributing to cloud solutioning by identifying root technical challenges through strategic questioning.'
+    ]
+  },
+  {
     title: 'Power Apps & Power BI Developer',
     company_name: 'Shared Services Canada',
     icon: ssc,
     iconBg: '#E6DEDD',
-    date: 'Jan 2023 - Apr 2024',
+    date: 'Jan 2023 - Sept. 2024',
     points: [
       'Enhancing transparency and accountability by implementing a centralized tracking system using PowerApps and Power Automate, reducing unresolved issues by 25%.',
       'Enabling intake and project coordinator teams to track BR progress electronically through an automated checklist and exception logic, reducing manual effort and communication delays.',
@@ -148,19 +164,6 @@ const experiences = [
       'Remediating and quality-testing over 100 web pages, 50 school websites, and 20 modules under strict timelines to ensure WCAG-compliant accessibility.',
       'Collaborating with over 20 school principals and marketing officers to design and update school and public webpages, improving design consistency and content clarity.',
       'Deploying and testing the staff login page used board-wide under a tight deadline, delivering essential access functionality reliably and on time.'
-    ],
-  },
-  {
-    title: 'Barista',
-    company_name: 'Starbucks',
-    icon: starbucks,
-    iconBg: '#383E56',
-    date: 'Sept 2020 - Jan 2023',
-    points: [
-      'Developing and maintaining web applications using React.js and other related technologies.',
-      'Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.',
-      'Implementing responsive design and ensuring cross-browser compatibility.',
-      'Participating in code reviews and providing constructive feedback to other developers.',
     ],
   },
 ]
