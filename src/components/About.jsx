@@ -9,39 +9,6 @@ import { SectionWrapper } from '../hoc'
 
 import { useClampText } from 'use-clamp-text'
 
-const longText = ` I am passionate about the art of storytelling, and I firmly believe that
-        code serves as an influential medium to convey captivating narratives
-        about the transformative journey of corporate applications and the
-        overall well-being of societies. As an AWS Certified Cloud Solutions
-        Architect, I have honed my skills in developing innovative web
-        applications that not only solve complex problems but also engage users
-        with captivating experiences.
-        
-        During my career, I have had the opportunity to work on a
-        diverse range of projects. One particularly rewarding experience was
-        being part of a knowledge management project. This endeavor allowed me
-        to delve into the intricacies of various business processes and goals,
-        ultimately leading me to develop a comprehensive business glossary Power
-        BI solution with 300+ business terms consolidated with the Canada Style
-        Guide. Through this project, I gained a deep understanding of how
-        technology can empower organizations by facilitating effective
-        communication and information management.
-        
-        Furthermore, I have led multiple web application projects
-        spanning different domains. From e-commerce platforms to event
-        management systems and social media applications, I have demonstrated my
-        versatility in delivering successful solutions across various
-        industries. With each project, I strive to create intuitive interfaces,
-        optimize performance, and ensure seamless integration with backend
-        systems.
-        
-        I invite you to scroll down and explore my portfolio to learn
-        more about my work and the stories I've told through code. From
-        captivating user interfaces to scalable cloud architectures, each
-        project showcases my commitment to excellence and my passion for
-        creating meaningful digital experiences. Thank you for visiting, and I
-        look forward to sharing more of my journey with you.`
-
 const ServiceCard = ({ title, icon, index }) => {
   return (
     <Tilt className='xs:w-[250px] w-full'>
@@ -62,10 +29,19 @@ const ServiceCard = ({ title, icon, index }) => {
     </Tilt>
   )
 }
-
 const About = () => {
   const [expanded, setExpanded] = useState(false)
   const toggleExpanded = () => setExpanded((state) => !state)
+
+  const overviewText = `
+I build full-stack, cloud-native applications that modernize enterprise systems and support real operational workflows. I’m especially interested in translating complex business and project management processes into scalable, intuitive software that performs reliably in regulated environments.
+
+Currently, I work at Ontario Power Generation, where I’ve designed, built, and deployed multiple full-stack internal applications to replace legacy reporting pipelines and license-dependent tools. These systems leverage modern APIs, containerized deployments, and secure authentication to reduce processing time, improve usability, and support director-level decision-making across project teams.
+
+Across my work, I’ve delivered applications in enterprise, e-commerce, and project management domains, with a focus on clean system architecture, performance optimization, and seamless integration between frontend interfaces and backend services. I’m comfortable working end-to-end—from infrastructure and APIs to user experience—while prioritizing maintainability and scale.
+
+This portfolio highlights selected projects that reflect my approach to building practical, production-ready software. Each project demonstrates how thoughtful engineering can simplify complexity, streamline workflows, and create measurable impact.
+  `
 
   return (
     <div>
@@ -78,92 +54,29 @@ const About = () => {
           variants={fadeIn('', '', 0.1, 1)}
           className='line-clamp-none mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
-          {' '}
-          I am passionate about the art of storytelling, and I firmly believe
-          that code serves as an influential medium to convey captivating
-          narratives about the transformative journey of corporate applications
-          and the overall well-being of societies. As an AWS Certified Cloud
-          Solutions Architect, I have honed my skills in developing innovative
-          web applications that not only solve complex problems but also engage
-          users with captivating experiences.<br></br>
-          <br></br> During my career, I have had the opportunity to work on a
-          diverse range of projects. One particularly rewarding experience was
-          being part of a knowledge management project. This endeavor allowed me
-          to delve into the intricacies of various business processes and goals,
-          ultimately leading me to develop a comprehensive business glossary
-          Power BI solution with 300+ business terms consolidated with the
-          Canada Style Guide. Through this project, I gained a deep
-          understanding of how technology can empower organizations by
-          facilitating effective communication and information management.
-          <br></br>
-          <br></br> Furthermore, I have led multiple web application projects
-          spanning different domains. From e-commerce platforms to event
-          management systems and social media applications, I have demonstrated
-          my versatility in delivering successful solutions across various
-          industries. With each project, I strive to create intuitive
-          interfaces, optimize performance, and ensure seamless integration with
-          backend systems.<br></br>
-          <br></br> I invite you to scroll down and explore my portfolio to
-          learn more about my work and the stories I've told through code. From
-          captivating user interfaces to scalable cloud architectures, each
-          project showcases my commitment to excellence and my passion for
-          creating meaningful digital experiences. Thank you for visiting, and I
-          look forward to sharing more of my journey with you.
+          {overviewText}
         </motion.p>
       ) : (
         <motion.p
           variants={fadeIn('', '', 0.1, 1)}
           className='line-clamp-3 mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
         >
-          {' '}
-          I am passionate about the art of storytelling, and I firmly believe
-          that code serves as an influential medium to convey captivating
-          narratives about the transformative journey of corporate applications
-          and the overall well-being of societies. As an AWS Certified Cloud
-          Solutions Architect, I have honed my skills in developing innovative
-          web applications that not only solve complex problems but also engage
-          users with captivating experiences.<br></br>
-          <br></br> During my career, I have had the opportunity to work on a
-          diverse range of projects. One particularly rewarding experience was
-          being part of a knowledge management project. This endeavor allowed me
-          to delve into the intricacies of various business processes and goals,
-          ultimately leading me to develop a comprehensive business glossary
-          Power BI solution with 300+ business terms consolidated with the
-          Canada Style Guide. Through this project, I gained a deep
-          understanding of how technology can empower organizations by
-          facilitating effective communication and information management.
-          <br></br>
-          <br></br> Furthermore, I have led multiple web application projects
-          spanning different domains. From e-commerce platforms to event
-          management systems and social media applications, I have demonstrated
-          my versatility in delivering successful solutions across various
-          industries. With each project, I strive to create intuitive
-          interfaces, optimize performance, and ensure seamless integration with
-          backend systems.<br></br>
-          <br></br> I invite you to scroll down and explore my portfolio to
-          learn more about my work and the stories I've told through code. From
-          captivating user interfaces to scalable cloud architectures, each
-          project showcases my commitment to excellence and my passion for
-          creating meaningful digital experiences. Thank you for visiting, and I
-          look forward to sharing more of my journey with you.
+          {overviewText}
         </motion.p>
       )}
       <input
         type='checkbox'
         onClick={toggleExpanded}
-        className="appearance-none expand-abt-btn before:content-['Expand'] checked:before:content-['Collapse']  bg-tertiary my-7 py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl outline outline-stone-200 cursor-pointer"
-      ></input>
+        className="appearance-none expand-abt-btn before:content-['Expand'] checked:before:content-['Collapse'] bg-tertiary my-7 py-3 px-8 outline-none w-fit text-white font-bold shadow-md shadow-primary rounded-xl outline outline-stone-200 cursor-pointer"
+      />
       <div className='mt-20 flex flex-wrap gap-10'>
         {services.map((service, index) => (
-          <ServiceCard
-            key={service.title}
-            index={index}
-            {...service}
-          ></ServiceCard>
+          <ServiceCard key={service.title} index={index} {...service} />
         ))}
       </div>
     </div>
   )
 }
+
 
 export default SectionWrapper(About, 'about')
