@@ -47,6 +47,7 @@ export {
   javascript,
   jobit,
   logo,
+  menu,
   mobile,
   mongodb,
   nodejs,
