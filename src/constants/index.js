@@ -15,7 +15,7 @@ import {
   git,
   figma,
   docker,
-  starbucks, aws,
+  starbucks, aws, opg,
   ssc,
   tdsb,
   carrent,
