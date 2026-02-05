@@ -118,12 +118,25 @@ const technologies = [
 ]
 
 const experiences = [
+   {
+    title: 'Fullstack Software Developer',
+    company_name: 'Ontario Power Generation (OPG)',
+    icon: opg,
+    iconBg: '#383E56',
+    date: 'August 2025 - PRESENT',
+    points: [
+      'Modernized a legacy SSRS/RDL reporting pipeline by delivering a centralized Project Management web app that replaced multi‑minute SQL‑driven reports with optimized APIs, reducing report generation to seconds and automating L1/L2 PDF creation for director‑level reviews.',
+      'Replaced a license‑dependent PowerApps solution with a scalable full‑stack Workbench application (C#, Angular, Kubernetes), eliminating per‑user licensing costs and improving performance and scalability for 200+ users through AD‑based authentication.',
+      'Enhanced usability by developing custom TIBCO EBX UI forms and business rules, increasing user adoption and reducing data entry errors by approximately 30%.',
+      'Streamlined project oversight through automated email alerts and workflow automation, cutting manual coordination effort for Project Managers and accelerating issue resolution timelines.'
+    ]
+  },
   {
     title: 'Solutions Architect Intern',
-    company_name: 'AWS',
+    company_name: 'Amazon Web Services (AWS)',
     icon: aws,
     iconBg: '#383E56',
-    date: 'April 2025 - PRESENT',
+    date: 'April 2025 - August 2025',
     points: [
       'Designing and supporting scalable, secure, and cost-optimized AWS architectures that align with customer technical and business objectives.',
       'Building interactive dashboards with Amazon QuickSight, integrating datasets from Amazon S3 and AWS Athena to provide near real-time analytics.',
@@ -136,7 +149,7 @@ const experiences = [
   },
   {
     title: 'Power Apps & Power BI Developer',
-    company_name: 'Shared Services Canada',
+    company_name: 'Shared Services Canada (SSC)',
     icon: ssc,
     iconBg: '#E6DEDD',
     date: 'Jan 2023 - Sept. 2024',
