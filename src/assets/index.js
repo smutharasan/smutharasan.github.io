@@ -25,6 +25,7 @@ import ssc from './company/ssc.png'
 import tdsb from './company/tdsb.jpeg'
 import starbucks from './company/starbucks.png'
 import aws from './company/aws.png'
+import opg from './company/opg.png'
 
 
 import carrent from './carrent.png'
@@ -33,31 +34,32 @@ import tripguide from './tripguide.png'
 
 export {
   aws,
-  logo,
   backend,
-  creator,
-  mobile,
-  web,
-  github,
-  menu,
+  carrent,
   close,
+  creator,
   css,
   docker,
   figma,
   git,
+  github,
   html,
   javascript,
+  jobit,
+  logo,
+  mobile,
   mongodb,
   nodejs,
+  opg,
   reactjs,
   redux,
-  tailwind,
-  typescript,
-  threejs,
-  starbucks,
   ssc,
+  starbucks,
+  tailwind,
   tdsb,
-  carrent,
-  jobit,
+  threejs,
   tripguide,
+  typescript,
+  web,
 }
+
